@@ -8,7 +8,13 @@ public class Poligono {
 	int lado1= 10;
 	int lado2= 5;
 
+	//Constructor sin parametros
+	public Poligono(){
+	
+	}
+	
 
+	//Constructor con parámetros
 	public Poligono(int arearectangulo, int lado1, int lado2) {
 		super();
 		this.arearectangulo = arearectangulo;
@@ -17,12 +23,12 @@ public class Poligono {
 	}
 
 
-
 	public void calcular(){
 		arearectangulo= lado1*lado2;
 
 	}
 
+	
 
 }
 
