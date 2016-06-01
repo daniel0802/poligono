@@ -22,7 +22,7 @@ public class Poligono {
 		this.lado2 = lado2;
 	}
 
-
+	//método que calcula el area
 	public void calcular(){
 		arearectangulo= lado1*lado2;
 
