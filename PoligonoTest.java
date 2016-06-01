@@ -24,7 +24,7 @@ public class PoligonoTest {
 		this.lado1 = lado1;
 		this.lado2 = lado2;
 		
-	
+		
 		
 		
 	}
@@ -41,6 +41,11 @@ public class PoligonoTest {
 		dato1[2]=5; //lado2
 		dato.add(dato1);
 		
+
+		dato2[0]=16; //area
+		dato2[1]=4; //lado1
+		dato2[2]=4; //lado2
+		dato.add(dato2);
 		
 		
 		return dato;
